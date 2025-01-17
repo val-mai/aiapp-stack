@@ -1,6 +1,6 @@
 services:
   aiapp-be:
-    image: valmai/aiapp:latest
+    image: ***/aiapp:0.0.2
     container_name: aiapp-be
     environment:
       ADMIN_EMAIL: ${ADMIN_EMAIL}
