@@ -1,6 +1,6 @@
 services:
   aiapp-be:
-    image: ***/aiapp:0.0.2
+    image: ***/aiapp:1.0.0
     container_name: aiapp-be
     environment:
       ADMIN_EMAIL: ${ADMIN_EMAIL}
