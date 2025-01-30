@@ -19,7 +19,7 @@ services:
     ports:
       - "8081:8080"
     volumes:
-      - /home/valmai/logging/logs:/var/log:rw
+      - /home/valmai/logging/logs:/app/logs
     depends_on:
       - aiapp-db
     restart: unless-stopped
