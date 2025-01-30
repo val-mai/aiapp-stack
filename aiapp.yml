@@ -18,6 +18,8 @@ services:
       spring_profiles_active: "prod"
     ports:
       - "8081:8080"
+    volumes:
+      - /home/valmai/logging/logs:/var/log:rw
     depends_on:
       - aiapp-db
     restart: unless-stopped
